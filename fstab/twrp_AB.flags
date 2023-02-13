@@ -40,4 +40,4 @@
 /efsc			emmc	/dev/block/bootdevice/by-name/mdm1m9kefsc							flags=backup=1;subpartitionof=/efs1
 
 # Removable storage
-/usbstorage		vfat	/dev/block/sdg1									/dev/block/sdh		flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
+/usbstorage		auto	/dev/block/sdg1								/dev/block/sdg4		flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
